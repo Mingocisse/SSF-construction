@@ -3,7 +3,7 @@
 @section('title', 'Contact Us')
 
 @section('content')
-<div class="relative bg-gray-900 h-64 md:h-96">
+<div class=" banner-about relative bg-gray-900 h-64 md:h-96">
     <img src="{{ asset('images/hero-5.jpeg') }}" alt="Contact Us Banner" class="w-full h-full object-cover opacity-50">
     <div class="absolute inset-0 flex items-center justify-center">
         <h1 class="text-4xl md:text-6xl font-bold text-white tracking-wider">Contact Us</h1>

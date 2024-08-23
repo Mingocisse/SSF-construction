@@ -24,7 +24,7 @@
                     </button>
                     <ul class="nav-links hidden md:flex md:space-x-6">
                         <li><a href="{{ route('home') }}" class="nav-link hover:text-blue-600 transition duration-300">Home</a></li>
-                        <li><a href="{{ route('projects') }}" class="nav-link hover:text-blue-600 transition duration-300">Project</a></li>
+                        <li><a href="{{ route('projects') }}" class="nav-link hover:text-blue-600 transition duration-300">Projects</a></li>
                         <li><a href="{{ route('equipment') }}" class="nav-link hover:text-blue-600 transition duration-300">Equipment & Plants</a></li>
                         <li><a href="{{ route('about') }}" class="nav-link hover:text-blue-600 transition duration-300">About Us</a></li>
                         <li><a href="{{ route('contact') }}" class="nav-link hover:text-blue-600 transition duration-300">Contact</a></li>

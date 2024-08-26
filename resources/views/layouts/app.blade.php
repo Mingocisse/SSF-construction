@@ -213,16 +213,14 @@
 					<div class="column column-1-4">
 						<h6 class="box-header">Categories</h6>
 						<ul class="taxonomies margin-top-30">
-							<li><a href="index2b5f.html?page=category&amp;cat=build" title="BUILD">BUILD</a></li>
+							<li><a href="index2b5f.html?page=category&amp;cat=build" title="BUILD">ROAD</a></li>
 							<li><a href="indexfeb4.html?page=category&amp;cat=design" title="DESIGN">DESIGN</a></li>
-							<li><a href="indexdf41.html?page=category&amp;cat=flooring" title="FLOORING">FLOORING</a></li>
-							<li><a href="index8bb6.html?page=category&amp;cat=painting" title="PAINTING">PAINTING</a></li>
+							<li><a href="indexdf41.html?page=category&amp;cat=flooring" title="FLOORING">ENGINEERING</a></li>
+							<li><a href="index8bb6.html?page=category&amp;cat=painting" title="PAINTING">PIPINH</a></li>
 							<li><a href="index040c.html?page=category&amp;cat=pavers" title="PAVERS">PAVERS</a></li>
 							<li><a href="index5dd2.html?page=category&amp;cat=plumbing" title="PLUMBING">PLUMBING</a></li>
 							<li><a href="index69d9.html?page=category&amp;cat=renovation" title="RENOVATION">RENOVATION</a></li>
 							<li><a href="index5f56.html?page=category&amp;cat=repairs" title="REPAIRS">REPAIRS</a></li>
-							<li><a href="index0b94.html?page=category&amp;cat=solar%20systems" title="SOLAR SYSTEMS">SOLAR SYSTEMS</a></li>
-							<li><a href="indexd48c.html?page=category&amp;cat=tiling" title="TILING">TILING</a></li>
 						</ul>
 					</div>
 					{{-- <div class="column column-1-4">

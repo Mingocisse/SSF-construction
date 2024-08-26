@@ -152,7 +152,7 @@
 		<div class="row page-margin-top-section">
 			<div class="row">
 				<h2 class="box-header">ABOUT US</h2>
-				<p class="description align-center">We provide a professional renovation and installation services with a real focus on customer satisfaction.<br>Our installations are carried out by fully trained staff to the highest professional standards.</p>
+				<p class="description align-center">We deliver professional road construction and civil engineering services with a strong commitment to customer satisfaction.<br>Our projects are executed by highly trained professionals, ensuring the highest standards of quality and expertise in every aspect.</p>
 			</div>
 			<div class="row page-margin-top">
 				<div class="column column-1-2 align-center re-preload">

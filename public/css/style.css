@@ -208,7 +208,7 @@
 }
 
 #cardTitle, #cardText{
-    color: #fff;
+    color: #fff !important;
 }
 
 .banner-about{

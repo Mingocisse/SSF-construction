@@ -62,7 +62,7 @@
 					<div class="header clearfix">
 						<div class="logo vertical-align-cell">
 					<a href="/"><img src="{{asset('images/banner/SSF-Liberia-Logo.png')}}" width="90px"; height="auto"></a>
-							<h1><a href="/" title="SSF">SSF Construction</a></h1>
+							<h1><a href="/" title="SSF">S.S.F Construction</a></h1>
 						</div>
 						<a href="#" class="mobile-menu-switch vertical-align-cell">
 							<span class="line"></span>
@@ -90,7 +90,7 @@
 			</a>
 			
 		</li>
-		<li class="">
+		<li>
 			<a href="{{route('team')}}" title="Our-Team">
 				OUR TEAM
 			</a>
@@ -198,7 +198,7 @@
 				<div class="row row-3-3">
 					<div class="column column-1-4">
 						<h6 class="box-header">About Us</h6>
-						<h2 class="f-about">SSF Construction</h2>
+						<h2 class="f-about">S.S.F Enterprenuer Inc.</h2>
 						<p class="description t1">Building the future with quality and innovation</p>
 						
 					</div>
@@ -211,18 +211,30 @@
 						</ul>
 					</div>
 					<div class="column column-1-4">
-						<h6 class="box-header">Categories</h6>
-						<ul class="taxonomies margin-top-30">
-							<li><a href="index2b5f.html?page=category&amp;cat=build" title="BUILD">ROAD</a></li>
-							<li><a href="indexfeb4.html?page=category&amp;cat=design" title="DESIGN">DESIGN</a></li>
-							<li><a href="indexdf41.html?page=category&amp;cat=flooring" title="FLOORING">ENGINEERING</a></li>
-							<li><a href="index8bb6.html?page=category&amp;cat=painting" title="PAINTING">PIPINH</a></li>
-							<li><a href="index040c.html?page=category&amp;cat=pavers" title="PAVERS">PAVERS</a></li>
-							<li><a href="index5dd2.html?page=category&amp;cat=plumbing" title="PLUMBING">PLUMBING</a></li>
-							<li><a href="index69d9.html?page=category&amp;cat=renovation" title="RENOVATION">RENOVATION</a></li>
-							<li><a href="index5f56.html?page=category&amp;cat=repairs" title="REPAIRS">REPAIRS</a></li>
+						<h6 class="box-header">Quick Links</h6>
+						<ul class="list margin-top-20">
+							<li class="template-bullet"><a href="{{route('home')}}">HOME</a></li>
+							<li class="template-bullet"><a href="{{route('project')}}">PROJECTS</a></li>
+							<li class="template-bullet"><a href="{{route('equipment')}}">EQUIPMENT & PLANTS</a></li>
+							<li class="template-bullet"><a href="{{route('team')}}">OUR TEAM</a></li>
+							<li class="template-bullet"><a href="{{route('about')}}">ABOUT US</a></li>
+							<li class="template-bullet"><a href="{{route('contact')}}">CONTACT</a></li>\
 						</ul>
 					</div>
+					<div class="column column-1-4">
+						<h6 class="box-header">Categories</h6>
+						<ul class="taxonomies margin-top-30">
+							<li><a href="#" title="BUILD">ROAD</a></li>
+							<li><a href="#" title="DESIGN">DESIGN</a></li>
+							<li><a href="#" title="FLOORING">ENGINEERING</a></li>
+							<li><a href="#" title="PAINTING">PIPING</a></li>
+							<li><a href="#" title="PAVERS">PAVERS</a></li>
+							<li><a href="#" title="PLUMBING">PLUMBING</a></li>
+							<li><a href="#" title="RENOVATION">RENOVATION</a></li>
+							<li><a href="#" title="REPAIRS">REPAIRS</a></li>
+						</ul>
+					</div>
+					
 					{{-- <div class="column column-1-4">
 						<h6 class="box-header">Latest Posts</h6>
 						<ul class="blog small margin-top-30">
@@ -253,7 +265,7 @@
 				</div>
 			</div>
 			<div class="row align-center padding-top-bottom-30">
-				<span class="copyright"> <a href="#" >SSF ENTERPRENEUR INC.</a> &COPY; Copyright {{date('Y')}} </span>
+				<span class="copyright"> <a href="#" >S.S.F ENTERPRENEUR INC.</a> &COPY; Copyright {{date('Y')}} </span>
 			</div>
 		</div>
 		<a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>

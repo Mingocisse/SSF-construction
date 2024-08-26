@@ -4,15 +4,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-})->name('home');
+})->name('home');  
 
-Route::get('/projects', function () {
-    return view('projects');
-})->name('projects');
+Route::get('/project', function () {
+    return view('project');
+})->name('project');
 
 Route::get('/equipment', function () {
     return view('equipment');
 })->name('equipment');
+
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
 
 Route::get('/about', function () {
     return view('about');

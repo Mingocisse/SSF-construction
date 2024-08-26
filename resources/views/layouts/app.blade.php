@@ -3,90 +3,288 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SSF Construction</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    @yield('styles')
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SSF COnstruction</title>
+
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/reset.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/superfish.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/prettyPhoto.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/jquery.qtip.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/style.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/animations.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/responsive.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('style/odometer-theme-default.css')}}">
+        {{-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> --}}
+		<!--fonts-->
+		<link rel="stylesheet" type="text/css" href="{{asset('fonts/streamline-small/styles.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('fonts/streamline-large/styles.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('fonts/template/styles.css')}}">
+		<link rel="stylesheet" type="text/css" href="{{asset('fonts/social/styles.css')}}">
+        <link rel="shortcut icon" href="images/favicon.ico">
 </head>
-<body class="bg-gray-100">
-    <header class="fixed top-0 left-0 right-0 z-50">
-        <nav id="navbar" class="navbar bg-violet-500 text-violet">
-            <div class="container mx-auto px-4 py-4">
-                <div class="flex justify-between items-center">
-                    <a href="{{ route('home') }}" class="flex items-center">
-                        <img src="{{ asset('images/SSF-Liberia-Logo.png') }}" alt="SSF Construction Logo" class="h-20 w-auto mr-3">
-                        <span class="text-2xl font-bold hover:text-blue-600 transition duration-300"></span>
-                    </a>
-                    <button class="mobile-menu-button md:hidden">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-                    </button>
-                    <ul class="nav-links hidden md:flex md:space-x-6">
-                        <li><a href="{{ route('home') }}" class="nav-link hover:text-blue-600 transition duration-300">Home</a></li>
-                        <li><a href="{{ route('projects') }}" class="nav-link hover:text-blue-600 transition duration-300">Projects</a></li>
-                        <li><a href="{{ route('equipment') }}" class="nav-link hover:text-blue-600 transition duration-300">Equipment & Plants</a></li>
-                        <li><a href="{{ route('about') }}" class="nav-link hover:text-blue-600 transition duration-300">About Us</a></li>
-                        <li><a href="{{ route('contact') }}" class="nav-link hover:text-blue-600 transition duration-300">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    
+    <body class="">
+		<div class="site-container">
+		<!--<div class="site-container boxed">-->
+			<div class="header-top-bar-container clearfix">
+				<div class="header-top-bar">
+					<ul class="contact-details clearfix">
+						<li class="template-phone">
+							<a href="tel:+231123456789 ">+231 123 456 789</a>
+						</li>
+						<li class="template-mail">
+							<a href="#"><span class="__cf_email__" >info@ssfconstruction.com</span></a>
+						</li>
+						<li class="template-clock">
+							Mon - Fri: 08.00 - 17.02
+						</li>
+					</ul>
+					
+					{{-- <ul class="social-icons">
+						<li>
+							<a target="_blank" href="#" class="social-facebook" title="facebook"></a>
+						</li>
+						<li>
+							<a target="_blank" href="#" class="social-twitter" title="twitter"></a>
+						</li>
+					
+					</ul> --}}
+				</div>
+				<a href="#" class="header-toggle template-arrow-up"></a>
+			</div>
+	<div class="header-container">
+			<!--<div class="header-container sticky">-->
+				<div class="vertical-align-table column-1-1">
+					<div class="header clearfix">
+						<div class="logo vertical-align-cell">
+					<a href="/"><img src="{{asset('images/banner/SSF-Liberia-Logo.png')}}" width="90px"; height="auto"></a>
+							<h1><a href="/" title="SSF">SSF Construction</a></h1>
+						</div>
+						<a href="#" class="mobile-menu-switch vertical-align-cell">
+							<span class="line"></span>
+							<span class="line"></span>
+							<span class="line"></span>
+						</a>
+						<div class="menu-container clearfix vertical-align-cell">
+							<nav>
+	<ul class="sf-menu">
+		<li class='selected'>
+			<a href="{{route('home')}}" title="Home">
+				HOME
+			</a>
+			
+		</li>
+		<li >
+			<a href="{{route('project')}}" title="project">
+				PROJECTS
+			</a>
+			
+		</li>
+		<li >
+			<a href="{{route('equipment')}}" title="equipment">
+				EQUIPMENTS & PLANTS
+			</a>
+			
+		</li>
+		<li class="">
+			<a href="{{route('team')}}" title="Our-Team">
+				OUR TEAM
+			</a>
+		</li>
+		<li>
+			<a href="{{route('about')}}" title="about">
+				ABOUT US
+			</a>
+		</li>
+		
+		<li class="left-flyout">
+			<a href="{{route('contact')}}" title="Contact">
+				CONTACT
+			</a>
+		</li>
+	</ul>
+</nav>
+<div class="mobile-menu-container">
+	<div class="mobile-menu-divider"></div>
+	<nav>
+		<ul class="mobile-menu collapsible-mobile-submenus">
+			<li class='selected'>
+				<a href="/" title="Home">
+					HOME
+				</a>
+				<a href="#" class="template-arrow-menu"></a>
+			</li>
+			<li >
+				<a href="/project" title="Services">
+					PROJECTS
+				</a>
+				<a href="#" class="template-arrow-menu"></a>
+				
+			</li>
+			<li >
+				<a href="/equipment" title="Projects">
+					EQUIPMENTS & PLANTS
+				</a>
+				<a href="#" class="template-arrow-menu"></a>
+				
+			</li>
+			<li class="">
+				<a href="/team" title="Our Team">
+					OUR TEAM
+				</a>
+			</li>
+			<li>
+				<a href="/about" title="Pages">
+					ABOUT US
+				</a>
+				<a href="#" class="template-arrow-menu"></a>
+				
+			</li>
+			
+			
+			<li>
+				<a href="/contact" title="Contact">
+					CONTACT
+				</a>
+				<a href="#" class="template-arrow-menu"></a>
+				
+			</li>
+		</ul>
+	</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
 
-    <main class="mt-16">
-        @yield('content')
-    </main>
+<main class="mt-1">
+    @yield('content')
+</main>
+					
+<div class="row yellow full-width padding-top-bottom-30">
+				<div class="row">
+					<div class="column column-1-3">
+						<ul class="contact-details-list">
+							<li class="sl-small-phone">
+								<p>Phone:<br>
+                                    +231 123 456 789</p>
+							</li>
+						</ul>
+					</div>
+					<div class="column column-1-3">
+						<ul class="contact-details-list">
+							<li class="sl-small-location">
+								<p>123 Construction Ave, 
+                                     <br>
+                                     Monrovia, Liberia</p>
+							</li>
+						</ul>
+					</div>
+					<div class="column column-1-3">
+						<ul class="contact-details-list">
+							<li class="sl-small-mail">
+								<p>E-mail:<br>
+								<a href="#"><span class="__cf_email__" >info@ssfconstruction.com</span></a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row gray full-width page-padding-top padding-bottom-50">
+				<div class="row row-3-3">
+					<div class="column column-1-4">
+						<h6 class="box-header">About Us</h6>
+						<h2 class="f-about">SSF Construction</h2>
+						<p class="description t1">Building the future with quality and innovation</p>
+						
+					</div>
+					<div class="column column-1-4">
+						<h6 class="box-header">Our Services</h6>
+						<ul class="list margin-top-20">
+							<li class="template-bullet">Road Construction</li>
+							<li class="template-bullet">Building Construction</li>
+							<li class="template-bullet">Civil Engineering</li>
+						</ul>
+					</div>
+					<div class="column column-1-4">
+						<h6 class="box-header">Categories</h6>
+						<ul class="taxonomies margin-top-30">
+							<li><a href="index2b5f.html?page=category&amp;cat=build" title="BUILD">BUILD</a></li>
+							<li><a href="indexfeb4.html?page=category&amp;cat=design" title="DESIGN">DESIGN</a></li>
+							<li><a href="indexdf41.html?page=category&amp;cat=flooring" title="FLOORING">FLOORING</a></li>
+							<li><a href="index8bb6.html?page=category&amp;cat=painting" title="PAINTING">PAINTING</a></li>
+							<li><a href="index040c.html?page=category&amp;cat=pavers" title="PAVERS">PAVERS</a></li>
+							<li><a href="index5dd2.html?page=category&amp;cat=plumbing" title="PLUMBING">PLUMBING</a></li>
+							<li><a href="index69d9.html?page=category&amp;cat=renovation" title="RENOVATION">RENOVATION</a></li>
+							<li><a href="index5f56.html?page=category&amp;cat=repairs" title="REPAIRS">REPAIRS</a></li>
+							<li><a href="index0b94.html?page=category&amp;cat=solar%20systems" title="SOLAR SYSTEMS">SOLAR SYSTEMS</a></li>
+							<li><a href="indexd48c.html?page=category&amp;cat=tiling" title="TILING">TILING</a></li>
+						</ul>
+					</div>
+					{{-- <div class="column column-1-4">
+						<h6 class="box-header">Latest Posts</h6>
+						<ul class="blog small margin-top-30">
+							<li>
+								<a href="indexb878.html?page=post" title="What a Difference a Few Months Make" class="post-image">
+									<img src="images/samples/90x90/image_10.jpg" alt="">
+								</a>
+								<div class="post-content">
+									<a href="indexb878.html?page=post" title="What a Difference a Few Months Make">What a Difference a Few Months Make</a>
+									<ul class="post-details">
+										<li class="date">April 25, 2015</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="indexb878.html?page=post" title="Kitchen and Living Room Renovation" class="post-image">
+									<img src="images/samples/90x90/image_07.jpg" alt="">
+								</a>
+								<div class="post-content">
+									<a href="indexb878.html?page=post" title="Kitchen and Living Room Renovation">Kitchen and Living Room Renovation</a>
+									<ul class="post-details">
+										<li class="date">April 17, 2015</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div> --}}
+				</div>
+			</div>
+			<div class="row align-center padding-top-bottom-30">
+				<span class="copyright"> <a href="#" >SSF ENTERPRENEUR INC.</a> &COPY; Copyright {{date('Y')}} </span>
+			</div>
+		</div>
+		<a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
+		<div class="background-overlay"></div>
 
-    <footer class="bg-gray-800 text-white py-6 mt-12">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-wrap justify-between">
-                <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                    <h3 class="text-xl font-bold mb-2">SSF Construction</h3>
-                    <p>Building the future with quality and innovation</p>
-                </div>
-                <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                    <h3 class="text-xl font-bold mb-2">Quick Links</h3>
-                    <ul>
-                        <li><a href="{{ route('home') }}" class="hover:text-blue-300">Home</a></li>
-                        <li><a href="{{ route('projects') }}" class="hover:text-blue-300">Projects</a></li>
-                        <li><a href="{{ route('equipment') }}" class="hover:text-blue-300">Equipment & Plants</a></li>
-                        <li><a href="{{ route('about') }}" class="hover:text-blue-300">About Us</a></li>
-                        <li><a href="{{ route('contact') }}" class="hover:text-blue-300">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="w-full md:w-1/3">
-                    <h3 class="text-xl font-bold mb-2">Contact Us</h3>
-                    <p>123 Construction Ave, Monrovia, Liberia</p>
-                    <p>Phone: +231 123 456 789</p>
-                    <p>Email: info@ssfconstruction.com</p>
-                </div>
-            </div>
-        </div>
-        <div class="mt-8 text-center">
-            <p> SSF Construction &copy;  {{ date('Y') }} . All rights reserved.</p>
-        </div>
-    </footer>
+    <!--- js -->
+    <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var navbar = document.getElementById('navbar');
-            var mobileMenuButton = document.querySelector('.mobile-menu-button');
-            var navLinks = document.querySelector('.nav-links');
-
-            window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
-                    navbar.classList.add('navbar-scrolled');
-                } else {
-                    navbar.classList.remove('navbar-scrolled');
-                }
-            });
-
-            mobileMenuButton.addEventListener('click', function() {
-                navLinks.classList.toggle('active');
-            });
-        });
-    </script>
-    @yield('scripts')
+    <!---Slider revolution -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.12.1.custom.min.js"></script>
+		<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+		<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.4.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+		<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript" src="js/jquery.transit.min.js"></script>
+		<script type="text/javascript" src="js/jquery.hint.min.js"></script>
+		<script type="text/javascript" src="js/jquery.costCalculator.min.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+		<script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
+		<script type="text/javascript" src="js/jquery.imagesloaded-packed.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/odometer.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style_selector/style_selector.css">
+<script type="text/javascript" src="{{asset('style_selector/style_selector.js')}}"></script>
+</div>
 </body>
 </html>

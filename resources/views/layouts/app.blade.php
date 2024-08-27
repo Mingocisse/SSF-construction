@@ -44,15 +44,7 @@
 						</li>
 					</ul>
 					
-					{{-- <ul class="social-icons">
-						<li>
-							<a target="_blank" href="#" class="social-facebook" title="facebook"></a>
-						</li>
-						<li>
-							<a target="_blank" href="#" class="social-twitter" title="twitter"></a>
-						</li>
 					
-					</ul> --}}
 				</div>
 				<a href="#" class="header-toggle template-arrow-up"></a>
 			</div>
@@ -235,33 +227,7 @@
 						</ul>
 					</div>
 					
-					{{-- <div class="column column-1-4">
-						<h6 class="box-header">Latest Posts</h6>
-						<ul class="blog small margin-top-30">
-							<li>
-								<a href="indexb878.html?page=post" title="What a Difference a Few Months Make" class="post-image">
-									<img src="images/samples/90x90/image_10.jpg" alt="">
-								</a>
-								<div class="post-content">
-									<a href="indexb878.html?page=post" title="What a Difference a Few Months Make">What a Difference a Few Months Make</a>
-									<ul class="post-details">
-										<li class="date">April 25, 2015</li>
-									</ul>
-								</div>
-							</li>
-							<li>
-								<a href="indexb878.html?page=post" title="Kitchen and Living Room Renovation" class="post-image">
-									<img src="images/samples/90x90/image_07.jpg" alt="">
-								</a>
-								<div class="post-content">
-									<a href="indexb878.html?page=post" title="Kitchen and Living Room Renovation">Kitchen and Living Room Renovation</a>
-									<ul class="post-details">
-										<li class="date">April 17, 2015</li>
-									</ul>
-								</div>
-							</li>
-						</ul>
-					</div> --}}
+					
 				</div>
 			</div>
 			<div class="row align-center padding-top-bottom-30">
@@ -272,9 +238,11 @@
 		<div class="background-overlay"></div>
 
     <!--- js -->
-    {{-- <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> --}}
+    <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 
     <!---Slider revolution -->
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
 		<script type="text/javascript" src="js/jquery-ui-1.12.1.custom.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
@@ -292,7 +260,7 @@
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/odometer.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="style_selector/style_selector.css">
-<script type="text/javascript" src="{{asset('style_selector/style_selector.js')}}"></script>
+		<script type="text/javascript" src="{{asset('style_selector/style_selector.js')}}"></script>
 </div>
 </body>
 </html>

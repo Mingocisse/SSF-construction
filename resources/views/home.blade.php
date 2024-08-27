@@ -152,7 +152,7 @@
 		<div class="row page-margin-top-section">
 			<div class="row">
 				<h2 class="box-header">ABOUT US</h2>
-				<p class="description align-center">We deliver professional road construction and civil engineering services with a strong commitment to customer satisfaction.<br>Our projects are executed by highly trained professionals, ensuring the highest standards of quality and expertise in every aspect.</p>
+				<p class="description align-center">We provide a professional renovation and installation services with a real focus on customer satisfaction.<br>Our installations are carried out by fully trained staff to the highest professional standards.</p>
 			</div>
 			<div class="row page-margin-top">
 				<div class="column column-1-2 align-center re-preload">
@@ -183,7 +183,7 @@
 				<div class="tabs no-scroll clearfix">
 					<ul class="tabs-navigation clearfix">
 						<li>
-							<a href="#" title="We Offer" class="sl-small-bubble-check">
+							<a href="#we-offer" title="We Offer" class="sl-small-bubble-check">
 								We Offer
 							</a>
 							<span></span>

@@ -125,7 +125,7 @@ input, textarea
 }
 input[type='number'] 
 {
-   appearance: textfield;
+    appearance: textfield;
 	-moz-appearance: textfield;
 	-webkit-appearance: textfield;
 	-webkit-appearance: textfield;

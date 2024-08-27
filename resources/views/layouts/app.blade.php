@@ -272,11 +272,9 @@
 		<div class="background-overlay"></div>
 
     <!--- js -->
-    <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    {{-- <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> --}}
 
     <!---Slider revolution -->
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-bbq.min.js"></script>
 		<script type="text/javascript" src="js/jquery-ui-1.12.1.custom.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>

@@ -48,7 +48,7 @@
 				</div>
 				<a href="#" class="header-toggle template-arrow-up"></a>
 			</div>
-	<div class="header-container">
+	<div class="header-container sticky">
 			<!--<div class="header-container sticky">-->
 				<div class="vertical-align-table column-1-1">
 					<div class="header clearfix">

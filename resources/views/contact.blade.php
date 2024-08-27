@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="">
+
     <div class="site-container">
-        <div class="theme-page padding-bottom-66">
+        <div class="theme-page padding-bottom-61">
             <div class="row gray full-width page-header vertical-align-table">
                 <div class="row full-width padding-top-bottom-50 vertical-align-cell">
                     <div class="row">
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="column column-2-3">
-                <h3 class="box-header page-margin-top">DROP US A LINE</h3>
+                <h3 class="box-header page-margin-top">DROP US A MESSAGE</h3>
                 <form class="contact-form page-margin-top" id="contact-form" method="post" action="https://quanticalabs.com/Renovate/Template/contact_form/contact_form.php">
                     <div class="row">
                         <fieldset class="column column-1-2">
@@ -72,7 +72,7 @@
                     </div>
                     <div class="row margin-top-30">
                         <div class="column column-1-2">
-                            <p class="description t1">We will contact you ASAP.</p>
+                            <p class="description t1">We will get back to you shortly.</p>
                         </div>
                         <div class="column column-1-2 align-right">
                             <input type="hidden" name="action" value="contact_form" />
@@ -83,7 +83,7 @@
             </div>
         </div>
     </div>
-</div>
+
         <a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
 		<div class="background-overlay"></div>
 	</div>

@@ -24,7 +24,7 @@
 		<link rel="stylesheet" type="text/css" href="{{asset('fonts/streamline-large/styles.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('fonts/template/styles.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('fonts/social/styles.css')}}">
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="#">
 </head>
     
     <body class="">

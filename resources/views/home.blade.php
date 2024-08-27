@@ -183,7 +183,7 @@
 				<div class="tabs no-scroll clearfix">
 					<ul class="tabs-navigation clearfix">
 						<li>
-							<a href="#we-offer" title="We Offer" class="sl-small-bubble-check">
+							<a href="#" title="We Offer" class="sl-small-bubble-check">
 								We Offer
 							</a>
 							<span></span>

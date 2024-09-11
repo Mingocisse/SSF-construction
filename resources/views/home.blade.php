@@ -33,8 +33,6 @@
             <span class="indicator active"></span>
             <span class="indicator"></span>
             <span class="indicator"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
         </div>
         
         <div class="carousel-controls">
@@ -50,8 +48,14 @@
 		<div class="row full-width gray page-padding-top-section">
 			<div class="row">
 				<h2 class="box-header">Overview</h2>
-				<p class="description align-center">SSF Entrepreneur Inc. is an Enterprise that was established in 2004 in accordance with a corporation pursuant to section 2. Of the Liberian Corporation Act of 1976 amended 1977. SSF has during its fifteen-year history developed into Liberia's leading construction company.The company has grown organically by re-investing its earnings to fund growth.
+				<p class="description align-left">SSF Entrepreneur Inc. is an Enterprise that was established in 2004 in accordance with a corporation pursuant to section 2. Of the Liberian Corporation Act of 1976 amended 1977. SSF has during its fifteen-year history developed into Liberia's leading construction company.The company has grown organically by re-investing its earnings to fund growth.
                     One of SSF's key focus is the development of young talent</p>
+
+					<blockquote class="blockquote-top">*The company has grown organically by re-investing its earnings to fund the company’s growth.</blockquote>
+
+				<p class="description align-left">One of SSF’s key focus is the development of young talent.</p>
+
+				
 
 					
 
@@ -62,7 +66,7 @@
 							<img src="images/samples/480x320/image_07.jpg" alt="">
 						</a>
 						<h4 class="box-header"><a href="indexe3d0.html?page=service_interior_renovation" title="Road Construction">ROAD CONSTRUCTION</a></h4>
-						<p>Wec construct the best road in the whole of liberia as a rate compared to none in the industry.</p>
+						<p>We construct the best road in the whole of liberia as a rate compared to none in the industry.</p>
 					</li>
 					<li>
 						<a href="index2e91.html?page=service_design_build" title="Design and Build">
@@ -345,23 +349,19 @@
         const cardContent = [
             {
                 title: "Building Liberia's Future",
-                text: "Committed to constructing a stronger, more resilient Liberia through innovative infrastructure solutions."
+                text: " We believe in embracing all people of our nation — working together to bring true change."
             },
             {
-                title: "Quality Construction Since 2004",
-                text: "Over 15 years of experience delivering excellence in every project across Liberia."
+                title: "Opportunity Creation",
+                text: "We put roofs over heads, but we also put work boots on feet. We believe in giving real opportunity to young Liberian, with genuine authority and responsibility."
             },
             {
                 title: "Empowering Communities",
                 text: "Our projects go beyond construction, uplifting local communities through job creation and skills development."
             },
             {
-                title: "Innovative Infrastructure Solutions",
-                text: "Leveraging cutting-edge technology and best practices to create sustainable infrastructure for Liberia's growth."
-            },
-            {
                 title: "Committed to Excellence",
-                text: "Our unwavering commitment to quality, safety, and client satisfaction sets us apart in the construction industry."
+                text: "We believe in building our nation not only with bricks, mortar and bitumen, but with the powerful spark that comes from unity."
             }
         ];
     

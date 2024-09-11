@@ -3,14 +3,21 @@
 @section('content')
 
 
+
+    <div class="banner-container">
+        <img src="{{asset('images/banner/v-1.jpg')}}" alt="" class="banner-image">
+        <div class= "banner-text">CONTACT US</div>
+    </div>
+
     <div class="site-container">
-        <div class="theme-page padding-bottom-61">
+        
+        <div class="theme-page padding-bottom-66">
             <div class="row gray full-width page-header vertical-align-table">
                 <div class="row full-width padding-top-bottom-50 vertical-align-cell">
                     <div class="row">
-                        <div class="page-header-left">
+                        {{-- <div class="page-header-left">
                             <h1>CONTACT US</h1>
-                        </div>
+                        </div> --}}
                         <div class="page-header-right">
                             <div class="bread-crumb-container">
                                 <label>You Are Here:</label>

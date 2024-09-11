@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SSF COnstruction</title>
+    <title>S.S.F Construction</title>
 
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
-
-    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+	{{-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> --}}
+    	<link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('css/style-table.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('style/reset.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('style/superfish.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('style/prettyPhoto.css')}}">
@@ -18,6 +22,7 @@
 		<link rel="stylesheet" type="text/css" href="{{asset('style/animations.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('style/responsive.css')}}">
 		<link rel="stylesheet" type="text/css" href="{{asset('style/odometer-theme-default.css')}}">
+
         {{-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> --}}
 		<!--fonts-->
 		<link rel="stylesheet" type="text/css" href="{{asset('fonts/streamline-small/styles.css')}}">
@@ -40,7 +45,7 @@
 							<a href="#"><span class="__cf_email__" >info@ssfconstruction.com</span></a>
 						</li>
 						<li class="template-clock">
-							Mon - Fri: 08.00 - 17.02
+							Mon - Fri: 08.00 - 17.00
 						</li>
 					</ul>
 					
@@ -54,7 +59,7 @@
 					<div class="header clearfix">
 						<div class="logo vertical-align-cell">
 					<a href="/"><img src="{{asset('images/banner/SSF-Liberia-Logo.png')}}" width="90px"; height="auto"></a>
-							<h1><a href="/" title="SSF">S.S.F Construction</a></h1>
+							<h1><a href="/" title="SSF">S.S.F <br/>ENTERPRENEUR INC</a></h1>
 						</div>
 						<a href="#" class="mobile-menu-switch vertical-align-cell">
 							<span class="line"></span>
@@ -70,11 +75,27 @@
 			</a>
 			
 		</li>
-		<li >
-			<a href="{{route('project')}}" title="project">
+		<li>
+			<a href="#?project=dropdown" title="project">
 				PROJECTS
 			</a>
-			
+			<ul>
+				<li >
+					<a href="{{route('road')}}" title="Road Construction">
+						Road Construction
+					</a>
+				</li>
+				<li>
+					<a href="{{route('building')}}" title="Building Construction">
+						Building Construction
+					</a>
+				</li>
+				<li>
+					<a href="{{route('civil')}}" title="Civil Engineering">
+						Civil Engineering
+					</a>
+				</li>
+			</ul>
 		</li>
 		<li >
 			<a href="{{route('equipment')}}" title="equipment">
@@ -114,6 +135,23 @@
 				<a href="/project" title="Services">
 					PROJECTS
 				</a>
+				<ul>
+					<li >
+						<a href="#" title="Road Construction">
+							Road Construction
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Building Construction">
+							Building Construction
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Civil Engineering">
+							Civil Engineering
+						</a>
+					</li>
+				</ul>
 				<a href="#" class="template-arrow-menu"></a>
 				
 			</li>
@@ -191,7 +229,7 @@
 					<div class="column column-1-4">
 						<h6 class="box-header">About Us</h6>
 						<h2 class="f-about">S.S.F Enterprenuer Inc.</h2>
-						<p class="description t1">Building the future with quality and innovation</p>
+						<p class="description t1">A Truly Liberian Company, Truly Empowered.</p>
 						
 					</div>
 					<div class="column column-1-4">
@@ -238,7 +276,10 @@
 		<div class="background-overlay"></div>
 
     <!--- js -->
-    <script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+		<script data-cfasync="false" src="https://quanticalabs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 
     <!---Slider revolution -->
         <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>

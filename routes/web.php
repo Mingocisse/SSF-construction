@@ -25,3 +25,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/road', function () {
+    return view('road');
+})->name('road');
+
+Route::get('/building', function () {
+    return view('building');
+})->name('building');
+
+Route::get('/civil', function () {
+    return view('civil');
+})->name('civil');

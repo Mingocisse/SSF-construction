@@ -48,38 +48,16 @@
 		<div class="row full-width gray page-padding-top-section">
 			<div class="row">
 				<h2 class="box-header">OVERVIEW</h2>
-				<p class="description align-left">SSF Entrepreneur Inc. is an Enterprise that was established in 2004 in accordance with a corporation pursuant to section 2. Of the Liberian Corporation Act of 1976 amended 1977. SSF has during its fifteen-year history developed into Liberia's leading construction company.The company has grown organically by re-investing its earnings to fund growth.
-                    One of SSF's key focus is the development of young talent</p>
+				<p class="description align-left">At SSF Entrepreneur Inc., we are Liberia’s premier construction company, building a legacy of excellence since 2004. With a presence in 12 of Liberia’s 15 counties, we specialize in delivering high-quality projects, even in the most remote regions. Our commitment goes beyond construction—SSF empowers local communities, supports small businesses, and develops the next generation of talent. Through innovation, dedication, and a focus on sustainable growth, we bring impactful solutions to every project. SSF is not just a construction company; we are partners in progress, shaping the future of Liberia.</p>
 
 					<blockquote class="blockquote-top">*The company has grown organically by re-investing its earnings to fund the company’s growth.</blockquote>
 
-				<p class="description align-left">One of SSF’s key focus is the development of young talent.</p>
+				
 
-				<h2 class="box-header page-margin-top">REGIONAL PRESENCE</h2>
-				<p class="description align-left">Whilst our head office is based in Monrovia, Liberia, we have over the 
-					past few years completed projects/contracts in twelve of Liberia’s fifteen 
-					counties:</p>
+				
 
-				<h4 class="box-header page-margin-top">We currently have branch offices in:</h4>
-				<table class="margin-top-40">
-					<tbody>
-						<tr>
-							<td>Bomi</td>
-							<td>Grand Cape Mount</td>
-						</tr>
-						<tr>
-							<td>Grand Kru</td>
-							<td>Lofa</td>
-						</tr>
-						<tr>
-							<td>Margibi</td>
-							<td>Nimba</td>
-						</tr>
-					</tbody>
-				</table>
-				<p class="description align-left">SSF remains flexible having successfully completed projects in some of 
-					the most remote parts of Liberia. Many of our contracts have involved 
-					projects categorized as “deep rural”.</p>
+				
+							
 				
 
 					

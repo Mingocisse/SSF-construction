@@ -37,7 +37,7 @@
 
     <div class="row full-width gray page-padding-top-section">
         <div class="row">
-            <h2 class="box-header">OVERVIEW</h2>
+            <h2 class="box-header">HISTORY</h2>
             <p class="description align-left">SSF Entrepreneur Inc. is an Enterprise that was established in 2004 in accordance with a corporation pursuant to section 2. Of the Liberian Corporation Act of 1976 amended 1977. SSF has during its fifteen-year history developed into Liberia's leading construction company.The company has grown organically by re-investing its earnings to fund growth.
                 One of SSF's key focus is the development of young talent</p>
 

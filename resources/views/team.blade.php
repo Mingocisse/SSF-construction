@@ -35,6 +35,7 @@
 			</div>
 		</div>
 	</div>
+
 	<div class="clearfix">
 		<div class="row">
 			<ul class="team-list padding-top-70 clearfix">
@@ -457,4 +458,44 @@
 	
 </div>
 
+
+
+
+
+{{-- <div class="table-row">
+    <div class="table-data">12</div>
+    <div class="table-data">Road Rehabilitation & Loop Rehab.</div>
+    <div class="table-data">Arcelor Mittal Liberia Ltd.<div>
+</div>
+<div class="table-row">
+    <div class="table-data">13</div>
+    <div class="table-data">62.5KM Road Reconstruction, Bridges Work</div>
+    <div class="table-data">UNHCR BO. Liberia<div>
+</div>
+<div class="table-row">
+    <div class="table-data">14</div>
+    <div class="table-data">22.5KM Rehab. Reconstruction of Road Bridges</div>
+    <div class="table-data">European Delegation to Liberia<div>
+</div>
+
+<div class="table-row">
+    <div class="table-data">15</div>
+    <div class="table-data">18KM Road Rehabilitation</div>
+    <div class="table-data">European Delegation to Liberia<div>
+</div>
+<div class="table-row">
+    <div class="table-data">16</div>
+    <div class="table-data">Road Rehabilitation[Landscaping & Backfilling]</div>
+    <div class="table-data">DANCOPR/SSR<div>
+</div>
+<div class="table-row">
+    <div class="table-data">18</div>
+    <div class="table-data">Rehabilitation of Schefflin Road to Army Dorm</div>
+    <div class="table-data">PAE Liberia<div>
+</div>
+<div class="table-row">
+    <div class="table-data">19</div>
+    <div class="table-data">78.7KM Rehab& Reconstruction of Saclepea Road</div>
+    <div class="table-data">UNHCR BO. Liberia<div>
+</div> --}}
 @endsection

@@ -263,7 +263,7 @@
 
 .table {
 	width:100%;
-	border:1px solid var(--color-form-highlight);
+	border:2px solid var(--color-form-highlight);
 }
 
 .table-header {
@@ -287,7 +287,8 @@
 .table-data, .header__item {
 	flex: 1 1 20%;
 	text-align:left;
-	margin-left: 0.9rem;
+	margin-left: 4rem;
+    font-weight: 500;
 }
 
 .header__item {
@@ -296,7 +297,7 @@
 }
 
 .table-row-1{
-    padding-bottom: 2rem;
+    padding:2rem 0;
 }
 	
 

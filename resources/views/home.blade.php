@@ -47,7 +47,7 @@
 		
 		<div class="row full-width gray page-padding-top-section">
 			<div class="row">
-				<h2 class="box-header">Overview</h2>
+				<h2 class="box-header">OVERVIEW</h2>
 				<p class="description align-left">SSF Entrepreneur Inc. is an Enterprise that was established in 2004 in accordance with a corporation pursuant to section 2. Of the Liberian Corporation Act of 1976 amended 1977. SSF has during its fifteen-year history developed into Liberia's leading construction company.The company has grown organically by re-investing its earnings to fund growth.
                     One of SSF's key focus is the development of young talent</p>
 
@@ -55,37 +55,60 @@
 
 				<p class="description align-left">One of SSF’s key focus is the development of young talent.</p>
 
-				
+				<h2 class="box-header page-margin-top">REGIONAL PRESENCE</h2>
+				<p class="description align-left">Whilst our head office is based in Monrovia, Liberia, we have over the 
+					past few years completed projects/contracts in twelve of Liberia’s fifteen 
+					counties:</p>
 
-					
+				<h4 class="box-header page-margin-top">We currently have branch offices in:</h4>
+				<table class="margin-top-40">
+					<tbody>
+						<tr>
+							<td>Bomi</td>
+							<td>Grand Cape Mount</td>
+						</tr>
+						<tr>
+							<td>Grand Kru</td>
+							<td>Lofa</td>
+						</tr>
+						<tr>
+							<td>Margibi</td>
+							<td>Nimba</td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="description align-left">SSF remains flexible having successfully completed projects in some of 
+					the most remote parts of Liberia. Many of our contracts have involved 
+					projects categorized as “deep rural”.</p>
+				
 
 					
 				<ul class="services-list clearfix page-margin-top">
 					<li>
-						<a href="indexe3d0.html?page=service_interior_renovation" title="Interior Renovation">
+						<a href="{{route('road')}}" title="Interior Renovation">
 							<img src="images/samples/480x320/image_07.jpg" alt="">
 						</a>
-						<h4 class="box-header"><a href="indexe3d0.html?page=service_interior_renovation" title="Road Construction">ROAD CONSTRUCTION</a></h4>
+						<h4 class="box-header"><a href="{{route('road')}}" title="Road Construction">ROAD CONSTRUCTION</a></h4>
 						<p>We construct the best road in the whole of liberia as a rate compared to none in the industry.</p>
 					</li>
 					<li>
-						<a href="index2e91.html?page=service_design_build" title="Design and Build">
+						<a href="{{route('building')}}" title="Bulding Construction">
 							<img src="images/samples/480x320/image_05.jpeg" alt="">
 						</a>
-						<h4 class="box-header"><a href="#" title="building construction">BUILDING CONSTRUCTION</a></h4>
+						<h4 class="box-header"><a href="{{route('building')}}" title="building construction">BUILDING CONSTRUCTION</a></h4>
 						<p>From initial design and project specification to archieving a high end finish.</p>
 					</li>
 					<li>
-						<a href="#" title="civil engineering">
+						<a href="{{route('civil')}}" title="civil engineering">
 							<img src="images/samples/480x320/image_04.jpeg" alt="">
 						</a>
-						<h4 class="box-header"><a href="#" title="civil engineering">CIVIL ENGINEERING</a></h4>
+						<h4 class="box-header"><a href="{{route('civil')}}" title="civil engineering">CIVIL ENGINEERING</a></h4>
 						<p>We offer quality engineering services with precision and timeliness.</p>
 					</li>
 				</ul>
-				<div class="align-center margin-top-67 padding-bottom-87">
+				{{-- <div class="align-center margin-top-67 padding-bottom-87">
 					<a class="more" href="index94f6.html?page=services" title="VIEW ALL SERVICES">VIEW ALL SERVICES</a>
-				</div>
+				</div> --}}
 			</div>
 		</div>
 		<div class="row full-width page-margin-top-section">
@@ -156,7 +179,7 @@
 		<div class="row page-margin-top-section">
 			<div class="row">
 				<h2 class="box-header">ABOUT US</h2>
-				<p class="description align-center">We provide a professional renovation and installation services with a real focus on customer satisfaction.<br>Our installations are carried out by fully trained staff to the highest professional standards.</p>
+				<p class="description align-left">We believe in embracing all people of our nation — working together to bring true change. We put roofs over heads, but we also put work boots on feet. We believe in giving real opportunity to young Liberian, with genuine authority and responsibility.We believe in building our nation not only with bricks, mortar and bitumen, but with the powerful spark that comes from unity.</p>
 			</div>
 			<div class="row page-margin-top">
 				<div class="column column-1-2 align-center re-preload">
@@ -167,7 +190,7 @@
 				<div class="column column-1-2">
 					<ul class="features-list">
 						<li class="sl-small-team margin-top-40">
-							<h4>OVER 15 YEARS EXPERIENCE</h4>
+							<h4>OVER 20 YEARS EXPERIENCE</h4>
 							<p>We combine quality workmanship, superior knowledge and low prices to provide you with service unmatched by our competitors.</p>
 						</li>
 						<li class="sl-small-driller">
@@ -207,30 +230,30 @@
 					</ul>
 					<div id="we-offer">
 						<h4 class="box-header">OUR OFFER</h4>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida.</p>
+						<p>SSF Entrepreneur Inc. offers high-quality construction services across Liberia, specializing in projects within both urban and remote areas. With over fifteen years of experience, we have successfully completed numerous contracts in twelve of Liberia’s fifteen counties. Our expertise spans various sectors, and we are deeply committed to developing local talent and empowering communities through sustainable construction projects and corporate social investments.</p>
 					</div>
 					<div id="we-guarantee">
 						<h4 class="box-header">OUR WARRANTY COVERS</h4>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida.</p>
+						<p> At SSF, we guarantee a commitment to excellence and community empowerment. We work with small and medium enterprises (SMMEs), providing essential support such as technical skills development, bridging finance, loan facilities, and guarantees. Our track record of completing challenging projects, even in deep rural areas, underscores our flexibility and dedication to quality delivery.</p>
 					
 					</div>
 					<div id="we-provide">
 						<h4 class="box-header">OUR SERVICES</h4>
-						<p>Paetos dignissim at cursus elefeind norma arcu. Pellentesque accumsan est in tempus etos ullamcorper, sem quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse gravida ornare non mattis velit rutrum modest. Morbi suspendisse a tortor velim pellentesque uter justo magna gravida.</p>
+						<p>We provide a wide range of services, including construction of schools, home renovations, and water wells for communities. Additionally, we offer internship programs to nurture young talent and equip them with practical skills. SSF remains dedicated to not only building infrastructure but also investing in the people and businesses that are integral to Liberia’s growth.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row page-margin-top-section padding-bottom-66">
 			<h2 class="box-header">WHY CHOOSE SSF</h2>
-			<p class="description align-center">Founded by Kevin Smith back in 2000, Renovate has established itself as one of the greatest and prestigious<br>providers of construction focused interior renovation services and building.</p>
+			<p class="description align-center">SSF Entrepreneur Inc. is Liberia’s leading construction company with over fifteen years of proven experience. We have successfully completed projects across twelve of Liberia’s fifteen counties, including some of the most remote areas. Our dedication to empowering communities, developing young talent, and supporting small and medium enterprises sets us apart. We combine technical excellence with a strong commitment to corporate social responsibility, ensuring that every project not only meets but exceeds expectations. When you choose SSF, you’re choosing a partner focused on delivering quality, sustainability, and true empowerment for all stakeholders.</p>
 			<div class="row page-margin-top">
 				<div class="column column-1-3">
 					<ul class="features-list big">
 						<li class="sl-large-person">
 							<div class="ornament"></div>
 							<h4 class="box-header page-margin-top">OVER 15 YEARS EXPERIENCE</h4>
-							<p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p>
+							{{-- <p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p> --}}
 						</li>
 					</ul>
 				</div>
@@ -239,7 +262,7 @@
 						<li class="sl-large-eco">
 							<div class="ornament"></div>
 							<h4 class="box-header page-margin-top">BEST MATERIALS</h4>
-							<p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p>
+							{{-- <p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p> --}}
 						</li>
 					</ul>
 				</div>
@@ -248,7 +271,7 @@
 						<li class="sl-large-hammer">
 							<div class="ornament"></div>
 							<h4 class="box-header page-margin-top">PROFESSIONAL STANDARDS</h4>
-							<p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p>
+							{{-- <p>Morbi nulla tortor, dignissim est node cursus euismod est arcu. Nomad at vehicula novum justo magna.</p> --}}
 						</li>
 					</ul>
 				</div>
@@ -295,32 +318,15 @@
 				<div class="our-clients-list-container page-margin-top">
 					<ul class="our-clients-list">
 						<li>
-							<img src="{{ asset('images/logos/logo_01.png') }}" alt="">
+							<img src="{{ asset('images/logos/wbg_logo.svg') }}" alt="">
 						</li>
 						<li>
-							<img src="{{ asset('images/logos/logo_02.png') }}" alt="">
+							<img src="{{ asset('images/logos/lb_logo.png') }}" alt="">
 						</li>
 						<li>
 							<img src="{{ asset('images/logos/logo_03.png') }}" alt="">
 						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_04.png') }}" alt="">
-						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_05.png') }}" alt="">
-						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_06.png') }}" alt="">
-						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_06.png') }}" alt="">
-						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_05.png') }}" alt="">
-						</li>
-						<li>
-							<img src="{{ asset('images/logos/logo_04.png') }}" alt="">
-						</li>
+						
 						
 					</ul>
 					<div class="re-carousel-pagination"></div>

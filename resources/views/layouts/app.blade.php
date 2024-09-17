@@ -95,6 +95,11 @@
 						Civil Engineering
 					</a>
 				</li>
+				<li>
+					<a href="{{route('complete')}}" title="Completed Prejects">
+						Completed & Ongoing Projects
+					</a>
+				</li>
 			</ul>
 		</li>
 		<li >
@@ -137,18 +142,23 @@
 				</a>
 				<ul>
 					<li >
-						<a href="#" title="Road Construction">
+						<a href="{{route('road')}}" title="Road Construction">
 							Road Construction
 						</a>
 					</li>
 					<li>
-						<a href="#" title="Building Construction">
+						<a href="{{route('building')}}" title="Building Construction">
 							Building Construction
 						</a>
 					</li>
 					<li>
-						<a href="#" title="Civil Engineering">
+						<a href="{{route('civil')}}" title="Civil Engineering">
 							Civil Engineering
+						</a>
+					</li>
+					<li>
+						<a href="{{route('complete')}}" title="Completed Prejects">
+							Completed & Ongoing Projects
 						</a>
 					</li>
 				</ul>
@@ -229,7 +239,7 @@
 					<div class="column column-1-4">
 						<h6 class="box-header">About Us</h6>
 						<h2 class="f-about">S.S.F Enterprenuer Inc.</h2>
-						<p class="description t1">A Truly Liberian Company, Truly Empowered.</p>
+						<p class="description t1">A Truly Liberian Company, Truly Empowered. <img src="{{asset('images/banner/Liberia-flag.png')}}" width="30px"; height="auto"></p>
 						
 					</div>
 					<div class="column column-1-4">
@@ -244,11 +254,11 @@
 						<h6 class="box-header">Quick Links</h6>
 						<ul class="list margin-top-20">
 							<li class="template-bullet"><a href="{{route('home')}}">HOME</a></li>
-							<li class="template-bullet"><a href="{{route('project')}}">PROJECTS</a></li>
+							<li class="template-bullet"><a href="{{route('complete')}}">PROJECTS</a></li>
 							<li class="template-bullet"><a href="{{route('equipment')}}">EQUIPMENT & PLANTS</a></li>
 							<li class="template-bullet"><a href="{{route('team')}}">OUR TEAM</a></li>
 							<li class="template-bullet"><a href="{{route('about')}}">ABOUT US</a></li>
-							<li class="template-bullet"><a href="{{route('contact')}}">CONTACT</a></li>\
+							<li class="template-bullet"><a href="{{route('contact')}}">CONTACT</a></li>
 						</ul>
 					</div>
 					<div class="column column-1-4">

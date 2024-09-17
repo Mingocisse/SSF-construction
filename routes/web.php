@@ -37,3 +37,7 @@ Route::get('/building', function () {
 Route::get('/civil', function () {
     return view('civil');
 })->name('civil');
+
+Route::get('/complete', function () {
+    return view('complete');
+})->name('complete');

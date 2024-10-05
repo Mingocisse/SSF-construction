@@ -493,6 +493,10 @@
 	{
 		width: 432px;
 	}
+
+	.logo-1{
+		display: none;
+	}
 	.re-smart-column .re-smart-column-wrapper
 	{
 		width: auto !important;
@@ -1005,6 +1009,12 @@
 	{
 		width: 270px;
 	}
+
+	.logo-1{
+		display: none;
+	}
+
+	
 	/* --- slider revolution --- */
 	.tp-revslider-mainul .tp-parallax-wrap
 	{

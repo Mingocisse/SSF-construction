@@ -58,7 +58,7 @@
 				<div class="vertical-align-table column-1-1">
 					<div class="header clearfix">
 						<div class="logo vertical-align-cell">
-					<a href="/"><img src="{{asset('images/banner/SSF-Liberia-Logo.png')}}" width="90px"; height="auto"></a>
+					<a href="/"><img src="{{asset('images/banner/SSF-Liberia-Logo.png')}}" class="logo-1" width="90px"; height="auto"></a>
 							<h1><a href="/" title="SSF">S.S.F <br/>ENTERPRENEUR INC</a></h1>
 						</div>
 						<a href="#" class="mobile-menu-switch vertical-align-cell">
@@ -218,7 +218,7 @@
 					<div class="column column-1-3">
 						<ul class="contact-details-list">
 							<li class="sl-small-location">
-								<p>123 Construction Ave, 
+								<p>11th Street Payne Avenue Sinkor, 
                                      <br>
                                      Monrovia, Liberia</p>
 							</li>

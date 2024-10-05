@@ -53,14 +53,6 @@
 					<blockquote class="blockquote-top">*The company has grown organically by re-investing its earnings to fund the company’s growth.</blockquote>
 
 				
-
-				
-
-				
-							
-				
-
-					
 				<ul class="services-list clearfix page-margin-top">
 					<li>
 						<a href="{{route('road')}}" title="Interior Renovation">

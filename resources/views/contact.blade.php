@@ -47,7 +47,7 @@
                     <h4 class="box-header">CONTACT DETAILS</h4>
                     <ul class="features-list page-margin-top clearfix">
                         <li class="sl-small-location">
-                            <p>123 Construction Ave<br>Monrovia, Liberia</p>
+                            <p>11th Street Payne Avenue Sinkor<br>Monrovia, Liberia</p>
                         </li>
                         <li class="sl-small-phone">
                             <p>Phone:<br>+231 123 456 789</p>
